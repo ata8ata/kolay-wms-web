@@ -1,4 +1,15 @@
-.login-form{
+.login{
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    padding: 25px 40px;
+    box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
+    display: block;
+    max-width: 585px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.login .login-form{
 	width: 100%;
 	max-width: 330px;
 	padding: 15px;
