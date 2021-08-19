@@ -46,33 +46,27 @@ const Login = (props) => {
         <div>
           {hasAccount ? (
             <div>
-              <Button
-                className="btn-lg btn-dark btn-block"
-                onClick={handleLogin}
-              >
+              <Button className="button" onClick={handleLogin}>
                 Sign in
               </Button>
-              <p>
+              <p className="text-center pt-1">
                 Don't have an hasAccount ?
-                <span onClick={() => setHasAccount(!hasAccount)}>Sign up</span>
+                <span className="use-button" onClick={() => setHasAccount(!hasAccount)}>Sign up</span>
               </p>
             </div>
           ) : (
             <div>
-              <Button
-                className="btn-lg btn-dark btn-block"
-                onClick={handleSignUp}
-              >
+              <Button className="button" onClick={handleSignUp}>
                 Sign up
               </Button>
-              <p>
+              <p className="text-center pt-1">
                 Have an account ?
-                <span onClick={() => setHasAccount(!hasAccount)}>Sign in</span>
+                <span className="use-button" onClick={() => setHasAccount(!hasAccount)}>Sign in</span>
               </p>
             </div>
           )}
         </div>
-        <div className="text-center pt-3">VEYA</div>
+        <div className="text-center pt-3">OR</div>
         <GoogleLoginButton className="mt-3 mb-3" />
       </Form>
     </section>

@@ -6,8 +6,8 @@
     display: flex;;
 }
 
-.login  .login-form{
-    padding: 60px;
+.login .login-form{
+    padding: 25px 40PX;
     margin: auto;
     width: 100%;
     max-width: 450px;
@@ -19,3 +19,11 @@
     box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
 }
 
+.login .login-form .button{
+    background-color: #5AAC44;
+    width: 100%
+}
+
+.login .login-form .use-button{
+    color: #0052CC;
+}
