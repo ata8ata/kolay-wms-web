@@ -1,18 +1,21 @@
 .login{
-    background-color: #FFFFFF;
-    border-radius: 3px;
-    padding: 25px 40px;
-    box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
-    display: block;
-    max-width: 585px;
-    margin: 0 auto;
-    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    background: #FFFFFF;
+    display: flex;;
 }
 
-.login .login-form{
-	width: 100%;
-	max-width: 330px;
-	padding: 15px;
-	margin: auto;
-	height: 100%;
+.login  .login-form{
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 450px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
 }
+
