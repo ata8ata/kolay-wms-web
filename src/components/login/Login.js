@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../images/kolayWMS.PNG";
 
 const Login = (props) => {
   const {
@@ -15,10 +16,10 @@ const Login = (props) => {
   } = props;
   return (
     <section className="login">
-      <div className="nameContainer">
-        
-      </div>
       <div className="loginContainer">
+        <div className="nameContainer">
+          <img src={logo} alt="" width="400" height="90" />
+        </div>
         <label>Username</label>
         <input
           type="text"
