@@ -15,6 +15,9 @@ const Login = (props) => {
   } = props;
   return (
     <section className="login">
+      <div className="nameContainer">
+        
+      </div>
       <div className="loginContainer">
         <label>Username</label>
         <input
